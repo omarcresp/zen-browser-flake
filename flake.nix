@@ -54,7 +54,7 @@
 		installPhase = ''
 		  mkdir -p $out/bin && mkdir -p $out/opt/zen && cp -r $src/* $out/opt/zen
 		  ln -s $out/opt/zen/zen $out/bin/zen
-		  install -D $desktopSrc/zen.desktop $out/share/applications/zen.desktop
+		  install -D $desktopSrc/zen.desktop $out/share/applications/zen-browser.desktop
 
 		  # install icons
 		  install -D $src/browser/chrome/icons/default/default16.png $out/share/icons/hicolor/16x16/apps/zen.png
